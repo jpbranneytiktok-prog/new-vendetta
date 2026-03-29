@@ -1,4 +1,4 @@
-/* Global Reset */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: 'Arial Black', sans-serif;
 }
 
-/* Page Background */
+/* GLOBAL PAGE */
 body {
     background: #000;
     color: #fff;
@@ -14,7 +14,7 @@ body {
     padding-bottom: 50px;
 }
 
-/* Header */
+/* HEADER */
 .nv-header {
     padding: 20px;
     border-bottom: 2px solid #8b0000;
@@ -28,7 +28,7 @@ body {
     letter-spacing: 3px;
 }
 
-/* Hero Section */
+/* HERO SECTION */
 .nv-hero {
     padding: 80px 20px;
     background: linear-gradient(to bottom, rgba(50,0,0,0.4), rgba(0,0,0,1));
@@ -58,7 +58,7 @@ body {
     box-shadow: 0 0 25px #ff1a1a;
 }
 
-/* Operations Section */
+/* OPERATIONS SECTION */
 .nv-operations {
     padding: 40px 20px;
 }
@@ -93,7 +93,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Territory Section */
+/* TERRITORY SECTION */
 .nv-territory {
     padding: 40px 20px;
     background: rgba(15, 0, 0, 0.6);
@@ -112,7 +112,7 @@ body {
     color: #ffcccc;
 }
 
-/* Footer */
+/* FOOTER */
 .nv-footer {
     margin-top: 40px;
     padding: 20px;
@@ -120,3 +120,85 @@ body {
     background: rgba(20, 0, 0, 0.7);
     color: #ff9999;
 }
+
+/* LOGIN PAGE */
+.nv-login-container {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.nv-login-title {
+    font-size: 26px;
+    color: #ff1a1a;
+    text-shadow: 0 0 10px #ff0000;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.nv-login-box {
+    background: rgba(20, 0, 0, 0.7);
+    padding: 30px;
+    border: 2px solid #8b0000;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 350px;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 0 15px #330000;
+}
+
+.nv-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #000;
+    border: 1px solid #8b0000;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.nv-input:focus {
+    outline: none;
+    border-color: #ff1a1a;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.nv-login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #8b0000;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px #ff0000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nv-login-btn:hover {
+    background: #b30000;
+    box-shadow: 0 0 25px #ff1a1a;
+}
+
+.nv-login-warning {
+    color: #ff9999;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* SIGN-UP LINK */
+.nv-signup-text {
+    margin-top: 15px;
+    color: #ffcccc;
+    font-size: 14px;
+}
+
+.nv-signup-link {
+    color: #ff1a1a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nv-signup-link:hover {
+    text-shadow: 0 0 8px #ff0000;
+    }
