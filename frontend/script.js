@@ -1,0 +1,1 @@
+console.log("New Vendetta frontend loaded!");
