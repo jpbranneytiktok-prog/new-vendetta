@@ -23,7 +23,7 @@ body {
 
 .nv-logo {
     font-size: 32px;
-    color: #fff1a1a;
+    color: #ff1a1a;
     text-shadow: 0 0 10px #ff0000;
     letter-spacing: 3px;
 }
@@ -236,7 +236,7 @@ body {
 }
 
 .nv-hub-card:hover {
-    border-color: #fff1a1a;
+    border-color: #ff1a1a;
     box-shadow: 0 0 25px #ff0000;
     transform: scale(1.05);
 }
@@ -247,7 +247,7 @@ body {
 
 .nv-city-title {
     font-size: 26px;
-    color: #fff1a1a;
+    color: #ff1a1a;
     text-shadow: 0 0 10px #ff0000;
     margin-bottom: 25px;
 }
@@ -272,7 +272,7 @@ body {
 }
 
 .nv-city-block:hover {
-    border-color: #fff1a1a;
+    border-color: #ff1a1a;
     box-shadow: 0 0 25px #ff0000;
     transform: scale(1.05);
 }
@@ -283,7 +283,7 @@ body {
 
 .nv-casino-title {
     font-size: 28px;
-    color: #fff1a1a;
+    color: #ff1a1a;
     text-shadow: 0 0 12px #ff0000;
     margin-bottom: 25px;
 }
